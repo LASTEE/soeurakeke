@@ -1,13 +1,14 @@
 const Discord = require('discord.js')
+const bot = new Discord.Client();
 
-var bot = new Discord.Client();
+var prefix = ("*")
 
 bot.on('ready', function() {
-    bot.user.setGame("La Soeur à Kéké, !help");
+    bot.user.setGame("Command: *help");
     console.log("Connectedç");
 });
 
-bot.login("NDE0MjM1MjY0NzMxMzE2MjQ0.DWkqXA.D7DukYjJnwTGX806Qw3ZYZ45ZP8");
+bot.login("NDE0MjM1MjY0NzMxMzE2MjQ0.DWkiGw.IPwmucK9091dnSG0R0NXdKuRxrg");
 
 
 bot.on('message', message =>{
@@ -16,7 +17,12 @@ bot.on('message', message =>{
     }
 
     if (message.content === "Salut"){
-        message.reply("Bien le bonjour mon mignon <3");
+        message.reply("Bien le bonjour mon mignon <3 :)");
+        console.log("Commande Salut effectué");
+    }
+    
+    if (message.content === "Ca va ?"){
+        message.reply("Encore mal d'hier soir et toi ?");
         console.log("Commande Salut effectué");
     }
 });
