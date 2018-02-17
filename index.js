@@ -49,4 +49,8 @@ bot.on('message', message =>{
         message.reply("A moi de te payer mon bichon");
         console.log("Commande Pute effectué");
     }
+        if (message.content === "Et l'avenir de Kék t'en pense quoi ?"){
+        message.reply("Il aura pas son brevet ptDRRRRR");
+        console.log("Commande Brevet effectué");
+    }
 });
