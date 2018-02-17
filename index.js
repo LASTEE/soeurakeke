@@ -37,5 +37,16 @@ bot.on('message', message =>{
         message.reply("Pourquoi donc chéri ?");
         console.log("Commande Pourquoi effectué");
     }
+    if (message.content === "Maélanne"){
+        message.reply("Oui?");
+        console.log("Commande Oui effectué");
+    }
+    if (message.content === "T'aimes bien Kéké"){
+        message.reply("Je vais le renier ou le vendre");
+        console.log("Commande Vendre effectué");
+    }
+    if (message.content === "Tu suces pour combien"){
+        message.reply("A moi de te payer mon bichon");
+        console.log("Commande Pute effectué");
+    }
 });
-    
