@@ -42,7 +42,7 @@ bot.on('message', message =>{
         console.log("Commande Oui effectué");
     }
     if (message.content === "T'aimes bien Kéké"){
-        message.reply("Je vais le renier ou le vendre");
+        message.reply("Je vais le renier.... ou le vendre, a voir xDDD");
         console.log("Commande Vendre effectué");
     }
     if (message.content === "Tu suces pour combien"){
